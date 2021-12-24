@@ -22,6 +22,5 @@
 3. One of the inbuilt example is comparator interface, when we call ```Collections.sort( SomeObject , ```here we can implement``` (object1, object2) -> object1.getterOfVariable().compareTo(object2.getterOfVariable()))```
  <br />
  
-**Consumer, Predicate and Supplier**
-1. If you have to use stream API then these three features are important.
-2. 
+**Consumer, Predicate and Supplier** (Useful while using stream API)
+ 
