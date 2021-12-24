@@ -23,3 +23,5 @@
  <br />
  
 **Consumer, Predicate and Supplier**
+1. If you have to use stream API the these three features are important.
+2. 
