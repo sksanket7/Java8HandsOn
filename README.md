@@ -17,5 +17,6 @@
   - Just have () double brackets if there are no parameters and -> this symbol is required while calling the interface method.
   - Eg.: ``` () -> System.out.println("Implemented interface method using Lambda Expression"); ```
   - If the body is just one line stattement then no need to have ```return``` keyword.
-
-3. One of the inbuilt example is comparator methdod, when we call ```Collections.sort( SomeObject , ```here we can implement``` (object1, object2) -> object1.getterOfVariable().compareTo(object2.getterOfVariable()))```
+ <br />
+ 
+3. One of the inbuilt example is comparator interface, when we call ```Collections.sort( SomeObject , ```here we can implement``` (object1, object2) -> object1.getterOfVariable().compareTo(object2.getterOfVariable()))```
