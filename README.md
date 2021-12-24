@@ -20,3 +20,6 @@
  <br />
  
 3. One of the inbuilt example is comparator interface, when we call ```Collections.sort( SomeObject , ```here we can implement``` (object1, object2) -> object1.getterOfVariable().compareTo(object2.getterOfVariable()))```
+ <br />
+ 
+**Consumer, Predicate and Supplier**
