@@ -3,7 +3,7 @@
 **Lambda Expression**
 
 1. Interface Design 
- - Interface should have only one abstract method, otherwise it will create a ambiguty.
+ - Interface should have only one abstract method, otherwise it will create a ambiguity.
  - While calling these lambda method it calls without its name so this may be the reason it is mandatory to have only a single method.
  - Eg.: ``` 
  interface LambdaHandOn {
