@@ -16,3 +16,4 @@
   - When we call lambda method no need to mention its name and return type.
   - Just have () double brackets if there are no parameters and -> this symbol is required while calling the interface method.
   - Eg.: ``` () -> System.out.println("Implemented interface method using Lambda Expression"); ```
+  - If the body is just one line stattement then no need to have ```return``` keyword.
