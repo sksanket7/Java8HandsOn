@@ -31,6 +31,7 @@
  2. Predicate Fucntional Interface
  - We are using this interface to perform conditional operation it returns boolean.
  - This interface is annotated with @FunctionalInterface, having abstract method test as boolean with Object input parameter ```boolean test(T t)```.
+ - Please check the exmaples in ```com.karvekar.predicate``` package.
  <br />
  
   3. Predicate Fucntional Interface
