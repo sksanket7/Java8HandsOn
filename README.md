@@ -50,7 +50,9 @@
  <br />
  
 **Why we need Stream API ?**
-- **Functional Programming:** 
+- **Functional Programming:** Means if we have functional interface then we can use Lamda expression.
+- **Code Reduce:** lamda reduces the line of code and also stream uses pipeline methods to chain those methods.
+- **Bulk Operation:** If we have a bulk operation then, by using stream we can acheieve better performance.
  
  
  
