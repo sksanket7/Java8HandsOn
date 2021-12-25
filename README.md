@@ -26,7 +26,7 @@
 1. Consumer Functional Interface
 - Its a Java 8 inbuilt function. This interface is annotated with @FunctionalInterface, having abstract method accept as void with Object input parameter ```void accept(T t)``` and one default method.
 - When we can use it ? So, when we have object as an input and based on the object we want to perform some operation and dont want to return anything. Basically when we want to manipulate an object we use this interface.
- <br />
+- One of the best example of Consumer interface is, List having stream with forEach method. Basically forEach method contains parameter of accept method of Consumer Functional Interface. You can checkout the example in ```com.karvekar.consumer.ConsumerListAndForEachExample```
  
  2. Predicate Fucntional Interface
  - We are using this interface to perform conditional operation it returns boolean.
