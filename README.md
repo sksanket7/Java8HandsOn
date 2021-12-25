@@ -39,5 +39,9 @@
   - When there is no input but an output is expected.
   - This interface is annotated with @FunctionalInterface, having abstract method get as generic type(some object type) with no parameter ```T get()```.
   - Supplier is used in the argument of orElseGet method of findBy method in Stream API. You can check the example in ```com.karvekar.supplier.SupplierDemoWithStreamFindByOrElseGet``` 
+ <br />
+ <br />
+
+**Stream API**
  
  
