@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Supplier;
 
-public class SupplierDemoWithoutLamda implements Supplier<Integer> {
+public class SupplierDemoWithoutLamda implements Supplier<String> {
 
     /**
      * Gets a result.
@@ -12,7 +12,12 @@ public class SupplierDemoWithoutLamda implements Supplier<Integer> {
      * @return a result
      */
     @Override
-    public Integer get() {
-        return null;
+    public String get() {
+        return "Supplier Without Lamda Expression";
+    }
+
+    public static void main(String[] args) {
+        Supplier<String> supplier = new SupplierDemoWithoutLamda();
+        System.out.println(supplier.get());
     }
 }
