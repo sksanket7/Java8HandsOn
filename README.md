@@ -44,15 +44,19 @@
 
 ## Stream API
 - Stream API process collection of objects.
-- A stream is a sequence of objects that suppor various methods which can be pipelined to produce desired results.
+- A stream is a sequence of objects that support various methods which can be pipelined to produce desired results.
 - **Stream is not a data structure** instead it takes input from the Collections, Arrays or I/O channels.
 - **Stream don't change the original data structure**, they only provide the result as per the pipelined methods.
  <br />
  
 **Why we need Stream API ?**
 - **Functional Programming:** Means if we have functional interface then we can use Lamda expression.
-- **Code Reduce:** lamda reduces the line of code and also stream uses pipeline methods to chain those methods.
-- **Bulk Operation:** If we have a bulk operation then, by using stream we can acheieve better performance.
+- **Code Reduce:** lamda reduces the line of code and also stream uses chained pipeline methods.
+- **Bulk Operation:** If we have a bulk operation then, by using stream we can acheieve better performance than the tradional approach.
+<br />
+
+**Implementation of Stream API**
+- Example of ForEach method using stream for list and map are included in ```com.karvekar.stream.StreamWithForEach ```
  
  
  
