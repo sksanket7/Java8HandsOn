@@ -1,6 +1,6 @@
 # Java8HandsOn
 
-**Lambda Expression**
+## Lambda Expression
 
 1. Interface Design 
  - Interface should have only one abstract method, otherwise it will create a ambiguity.
@@ -22,7 +22,7 @@
 3. One of the inbuilt example is comparator interface, when we call ```Collections.sort( SomeObject , ```here we can implement``` (object1, object2) -> object1.getterOfVariable().compareTo(object2.getterOfVariable()))```
  <br />
  
-**Consumer, Predicate and Supplier** (Useful while using stream API)
+## Consumer, Predicate and Supplier (Useful while using stream API)
 1. Consumer Functional Interface
 - Its a Java 8 inbuilt function. This interface is annotated with @FunctionalInterface, having abstract method accept as void with Object input parameter ```void accept(T t)``` and one default method.
 - When we can use it ? So, when we have object as an input and based on the object we want to perform some operation and dont want to return anything. Basically when we want to manipulate an object we use this interface.
@@ -42,6 +42,6 @@
  <br />
  <br />
 
-**Stream API**
+## Stream API
  
  
