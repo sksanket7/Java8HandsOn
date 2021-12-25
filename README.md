@@ -43,5 +43,14 @@
  <br />
 
 ## Stream API
+- Stream API process collection of objects.
+- A stream is a sequence of objects that suppor various methods which can be pipelined to produce desired results.
+- **Stream is not a data structure** instead it takes input from the Collections, Arrays or I/O channels.
+- **Stream don't change the original data structure**, they only provide the result as per the pipelined methods.
+ <br />
+ 
+**Why we need Stream API ?**
+- **Functional Programming:** 
+ 
  
  
