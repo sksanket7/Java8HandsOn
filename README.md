@@ -35,8 +35,9 @@
  - In stream API there is a method called filer which internally uses predicate a method argument.
  <br />
  
-  3. Predicate Fucntional Interface
+  3. Supplier Fucntional Interface
   - When there is no input but an output is expected.
   - This interface is annotated with @FunctionalInterface, having abstract method get as generic type(some object type) with no parameter ```T get()```.
+  - Supplier is used in the argument of orElseGet method of findBy method in Stream API. You can check the example in ```com.karvekar.supplier.SupplierDemoWithStreamFindByOrElseGet``` 
  
  
